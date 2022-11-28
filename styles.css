@@ -1,0 +1,78 @@
+
+
+.Header {
+    height: 400px;
+    width: 1400px;
+    background-size: 32px,32px,31px,61px,32px,32px,cover;
+    background-position: 35.3cm 0.85cm,36.16cm 0.85cm,32.88cm 0cm,33.70cm 0cm,35.32cm 0.02cm,36.16cm 0cm,0 0 ;
+    background-image: url("login.jpg"),url("Logout.jpg"),url("Instagramr.png"),url("facebookr.png"),url("twitterr.jpg"),url("linkedinr.jpg") ,url("Header.jpg");
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    
+}
+
+h1 {
+    color: rgb(172, 11, 59);
+    font-size: 2cm;
+    padding-top: 290px;
+    
+}
+
+.Presentacion {
+    background-image: url("perfilact.jpg");
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 1400px;
+    
+}
+
+h2 {
+    color: rgb(46, 11, 172);
+    margin-left: 100px;
+}
+
+p{
+    margin-left: 110px;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+h3{
+    margin-top: 0px
+
+}
+
+.Cvitae p{
+    
+        margin-left: 10px;
+        font-style: italic;
+        font-size: 15px;
+
+}
+
+.Cvitae h3{margin-left: 10px;
+    font-style: italic;
+    font-size:40px;
+}
+
+.Habil img{
+    padding: 10px;
+   
+}
+
+.Habil h4{margin-left: 10px;
+    font-style: italic;
+    font-size:40px;
+}
+
+.Proy h2{
+    margin-left: 10px;
+        font-style: italic;
+        font-size: 25px;    
+
+}
+
+.Proy h4{margin-left: 10px;
+        font-style: italic;
+        font-size:40px;
+}
