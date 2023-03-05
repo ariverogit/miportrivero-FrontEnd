@@ -1,0 +1,213 @@
+{
+    "shortname":"#Yo Programo",
+    
+    "presen":[
+            {
+                "nombre": "Ing. Antonio Rivero - Full Stack Developer Jr.",
+                "acerca": "Soy Ingeniero Electronico con experiencia desde 1999 en Elecronica Industrial, en desarrollo de Embebidos con MCU utilizando Lenguaje Assembler y C, Full Stack Developer Jr. desde 2022"
+            }
+        ],
+        "nombre": "Ing. Antonio Rivero - Full Stack Developer Jr.",
+        "acerca": "Soy Ingeniero Electronico con experiencia desde 1999 en Elecronica Industrial, en desarrollo de Embebidos con MCU utilizando Lenguaje Assembler y C, Full Stack Developer Jr. desde 2022",
+        "imged":"src/editar.jpg",
+
+    "trayectoria":[
+        {
+            "fechae": "06/2014 a Actualidad  INTEMA - CONICET Mar del Plata, ARG.",
+            "puesto":"Puesto: Profesional principal-Laboratorio de Electrónica",
+            "produccion":[{
+                "tarea":"Gestionar los servicios de mantenimiento coordinando su prioridad, juntamente con el desarrollo y construccion de equipos electrónicos"
+            },
+            {
+                "tarea":"Mantener equipamiento electrónico especifico: espectrofotómetros UV, infrarrojos y otros, cromatógrafos, hornos y muflas, extrusoras, mezcladoras, balanzas, medidores de PH, potenciostatos,microscopios electrónicos, máquinas de ensayos mecánicos etc."
+            },
+            {
+                "tarea":"Diseñar y construir circuitos electrónicos para aplicaciones diversas en el área de la ingeniería de materiales, química y mecánica."
+            },
+            {
+                "tarea":"Diseñar y construir interfaces electrónicas para el sensar distintas variables físico - químicas."
+            },
+            {
+                "tarea":"Programar microcontroladores y aplicaciones para PC para control de procesos industriales, de laboratorio y adquisición de datos."
+            },
+            {
+                "tarea":"Asesorar en la selección y compra de nuevo equipamiento científico."
+            },
+            {
+                "tarea":"Asesorar en el uso y mantenimiento del equipamiento del instituto."
+            },
+            {
+                "tarea":"Gestionar la compra de componentes electrónicos y repuestos."
+            },
+            {
+                "tarea":"Gestionar documentación técnica del laboratorio"
+            },
+            {
+                "tarea":"Coordinar servicios de asistencia técnica e instalación de equipos de laboratorio con las firmas representantes de equipamiento."
+            },
+            {
+                "tarea":"Asistir a cursos de entrenamiento y actualización"
+            }
+            
+            ]
+
+        },
+
+        {
+            "fechae": "1999 al 06/2014 - VOLTA BUENOS AIRES SRL Mar del Plata, ARG.",
+            "puesto":"Puesto: Jefe de Depto. Electricidad y Electrónica - Representante Tec",
+            "produccion":[
+                {
+                    "tarea":"Diseño de la 1º máquina del país de tracción directa con motor a imanes permanentes multipolar con un optimización de un 50% en ahorro de energía. Con 40 máquinas ya instaladas."
+                },
+                {
+                    "tarea":"Desarrollo y fabricación de controlador de maniobra de ascensor basado en microcontroladores, rogramado en assembler con 8 equipos ya instalados en el país (2 en MdP, 2 en Rosario y 4 en Mendoza)"
+                },
+                {
+                    "tarea":"Otros desarrollos con microcontroladores: Operador de Puertas Automáticas, Sintetizador de voz, Rectificador controlado de Si p/ control de bobina de freno mecánico del ascensor, Teclado para habilitar acceso y uso del ascensor, Sistema de control de rescate de 4 ascensores con UPS, Control de posición y velocidad de puertas automáticas, Balanzas, gongos y diversos accesorios relacionados con ascensores."
+                },
+                {
+                    "tarea":"Programación y puesta en marcha de variadores de frecuencia de cualquier marca y para toda aplicación(FVVV)."
+                },
+                {
+                    "tarea":"Responsable en proyecto, dirección y representación técnica para instalación y mantenimiento de ascensores y montacargas"
+                },
+                {
+                    "tarea":"Adaptación de motores eléctricos para ser accionados por FVVV."
+                },
+                {
+                    "tarea":"Jefe del Depto. Electricidad y Electrónica con 4 personas en la sección"
+                },
+                {
+                    "tarea":"Tareas de Mantenimiento en fábrica."
+                }
+                
+        ]
+        },
+
+        {
+            "fechae": "2012-Actualidad - EEST Nro 3. Domingo Faustino Sarmiento",
+            "puesto":"Puesto: Profesor de Secundario de Escuela Técnica",
+            "produccion":[
+                {
+                    "tarea":"2015 a actual. : Instal y Aplic Energia 6ª Año Adultos – Electrónica Industrial y Maquinas Electricas 7ºAño Electromecánica. - Sist. De Comunicaciones 7ª Año Electrónica"
+                },
+                {
+                    "tarea":"2013/a actual. : Practicas Profesionalizantes Electromecánica y Electrónica 7° Año EEST N° 3"
+                },
+                {
+                    "tarea":"2012 :Clases de Automatización con PLC lenguaje ladder con LOGOSOFT en 6° Año de Secundario, en EETN4 y EETN1 en Mar del Plata"
+                }
+            ]
+        },
+
+        {
+            "fechae": "1998–1999 ESKABE S.A. Mar del Plata, ARG.",
+            "puesto":"Puesto: Puesta en marcha y optimización de Túnel de Pintura",
+            "produccion":[
+                {
+                    "tarea":"Diseño de dispositivo de sujeción y carros de transporte de piezas cumpliendo con las exigencias del proceso y determinación del método de trabajo en el proceso, logrando un aumento en la productividad y calidad de la sección en piezas por hora."
+                },
+                {
+                    "tarea":"Confección de un sistema de control de insumos para evitar el desabastecimiento del proceso."
+                },
+                {
+                    "tarea":"Estudio de métodos y tiempos en todos los sectores de la fábrica."
+                }
+            ]
+        },
+
+        {
+            "fechae": "1993–1997 EMZO S. A. I. C. Mar del Plata, ARG.",
+            "puesto":"Puesto: Operador y Programador EIA-ISO de Centro de Mecanizado a control numérico MAZAK V-5 y MAZAK V-12.",
+            "produccion":[
+                {
+                    "tarea":"Confección Programas y dispositivos de sujeción para el mecanizado de piezas."
+                }
+            ]
+        },
+
+        {
+            "fechae": "1992–1993 G.U.G. A. Refrigeración Mar del Plata, ARG.",
+            "puesto":"Puesto: Armado y Service de Equipos de refrigeración familiar y Comercial",
+            "produccion":[
+                {
+                    "tarea":"instalacion y reparacion de heladeras familiares y comerciales"
+                }
+            ]
+        },
+
+        {
+            "fechae": "1989–1992 Jugos Rico S.A. Mar del Plata, ARG.",
+            "puesto":"Puesto: Operario de Producción",
+            "produccion":[
+                {
+                    "tarea":"Envasado"
+                }
+            ]
+        },
+
+        {
+            "fechae": "1988–1989 ASCENSORES VOLTA SAICIYF Mar del Plata, ARG.",
+            "puesto":"Puesto: Operario Calificado (En Sección Tornería)",
+            "produccion":[
+                {
+                    "tarea":"Operador de torno revolver y paralelo"
+                }
+            ]
+        },
+
+        {
+            "fechae": "1986–1987 FLORENCIA S.A. (juegos SACOA) Mar del Plata, ARG.",
+            "puesto":"Puesto: Técnico Auxiliar",
+            "produccion":[
+                {
+                    "tarea":"Reparación, Puesta en Marcha y Armado de Juegos Electrónicos"
+                }
+            ]
+        }
+
+
+    ],
+
+    "habilidades":[
+            {
+                "grafico":"..src/Automat.jpg"
+
+            },
+            {
+                "grafico":"..src/Program.jpg"
+
+            },
+            {
+                "grafico":"..src/Software.jpg"
+    
+            }
+
+        ],
+
+        "proyectos":[
+            {
+                "linkproy": "https://youtu.be/IzHQ55EWwyY",
+                "titproy":"Filmcasting - Lab Electronica-INTEMA- CONICET:",
+                "descproy":"Equipo de laboratorio que lo que hace es arrastrar una nuestra para analizar su viscosidad o adherencia o alguna otra propiedad del material, tiene un movimiento lineal con limites en los extremos que detienen el movimiento. Filmcasting es una técnica que se usa mucho en investigación de materiales Se opera por bluetooth con una aplicación realizada con MIT inventor y una placa arduino."
+            },
+
+            {
+                "linkproy": "https://youtu.be/O4l1FZ0tDAg",
+                "titproy":"Motor sincronico a imanes permanentes multipolar",
+                "descproy":"Vídeo que muestra la diferencia del motor sincrónico a imanes permanentes en comparación a otro tipo de accionamiento de maquinas de tracción, en este caso con un motor de continua. La maquina a destacar es la que se encuentra a la derecha en la imagen de color verde, donde ya de observa la diferencia de tamaño, fue diseñada y calculada para un ascensor que puede traccionar 1400 Kg a 90 m/min con suspensión 2 a 1. Fue fabricada por VOLTA BUENOS AIRES SRL, diseñada por Lino de la Torre y calculada por el Ing. Antonio Rivero, existen mas de 50 maquinas instaladas en el pais por nosotros Este video intenta explicar las bondades de la actualización tecnológica como forma de optimizar sistemas, aprovechando los últimos avances de la ingeniería."
+            }
+
+
+            
+        ]
+
+    
+    
+
+
+
+
+
+}

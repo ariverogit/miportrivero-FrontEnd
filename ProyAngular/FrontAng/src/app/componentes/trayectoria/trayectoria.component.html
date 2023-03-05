@@ -1,0 +1,16 @@
+<div class="Cvitae" id="cvtae">
+    <h3>Experiencia Laboral </h3>
+    <ol>
+        <li *ngFor="let itemtray of trayectList"> 
+                <p> {{itemtray.fechae}}</p>
+                <p>{{itemtray.puesto}}</p>
+                <ul >
+                    <li *ngFor="let itemtarea of itemtray.produccion">
+                        <p >{{itemtarea.tarea}}</p>
+                    </li>
+                    </ul>
+        </li>
+    </ol>
+    <img src="editar.jpg" alt="" height="16" inputmode="">
+    <img src="Eliminar.png" alt="" height="16" >
+  </div>
