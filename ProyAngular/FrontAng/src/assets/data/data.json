@@ -185,6 +185,17 @@
             }
 
         ],
+        
+        "EdElim":[
+            {
+                "icon":"..src/assets/imagenes/editar.jpg"
+            },
+
+            {
+                "icon":"..src/assets/imagenes/Eliminar.png"
+            }
+
+        ],
 
         "proyectos":[
             {

@@ -13,6 +13,9 @@ import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './componentes/login/login.component';
 import { Routes } from '@angular/router';
+import { LogoAPComponent } from './componentes/logo-ap/logo-ap.component';
+import { RedsocComponent } from './componentes/redsoc/redsoc.component';
+import { BannerComponent } from './componentes/banner/banner.component';
 
 const appRoutes:Routes = [
   {path:'login',component:LoginComponent}
@@ -29,6 +32,9 @@ const appRoutes:Routes = [
     HabilidadComponent,
     ProyectoComponent,
     LoginComponent,
+    LogoAPComponent,
+    RedsocComponent,
+    BannerComponent,
   ],
   imports: [
     BrowserModule,

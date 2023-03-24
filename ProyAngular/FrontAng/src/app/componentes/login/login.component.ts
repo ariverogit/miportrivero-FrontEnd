@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import {LoginuserService} from 'src/app/Servicios/loginuser.service';
 import {User} from 'src/app/user';
 
@@ -10,8 +10,10 @@ import {User} from 'src/app/user';
 export class LoginComponent implements OnInit {
 
   user: User=new User();
+  logeado: boolean = false;
   constructor(private loginuserservice: LoginuserService){}
-
+  @Output()
+  envlog=new EventEmitter<Boolean>();
   ngOnInit(): void{
 
   }
@@ -19,8 +21,17 @@ export class LoginComponent implements OnInit {
   userLogin(){
     console.log(this.user);
     this.loginuserservice.loginUser(this.user).subscribe(data=>{
-      window.location.href = "/portfolio"
-    },error=>alert("Por favor ingrese usuario y password correcto"));
+      window.location.href = "/app"
+      this.logeado=true;
+      
+    },error=>alert("Por favor ingrese usuario y password correcto")
+    
+    );
+  }
+
+  envdato(valor:Boolean ){
+    this.envlog.emit(this.logeado)
+
   }
 
 }

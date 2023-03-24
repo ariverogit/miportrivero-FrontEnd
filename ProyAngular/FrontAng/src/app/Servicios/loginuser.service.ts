@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { User } from 'src/app/user';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -13,5 +14,6 @@ export class LoginuserService {
   loginUser(user: User):Observable<object>{
     console.log(user);
     return this.HttpClient.post('${this.baseUrl}', user);
+    
   }
 }

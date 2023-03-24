@@ -1,78 +1,10 @@
 
-.Header {
-    height: 400px;
-    width: 1400px;
-    background-size: cover;
-    background-position: 0 0 ;
-    background-image: url("Header.jpg");
-    background-repeat: no-repeat;
-    
-       
-}
-
- 
-
-#redes{
-    position: relative;
-    left: 1244px;
-    bottom: 346px;
-}
-
-#logeo{
-    position: relative;    
-    left: 1344px;
-    bottom: 346px;
-}
-
-/*#formlog div{
-    background-color: aqua;
-    height: 100px;
-    width: 200px;
-}
-
-#formlogh1{
-    background-color: aqua;
-    
-}
-*/
 .formlog{
     position: relative;
     left: -500px;
     bottom: 1px;
 
 }
-/*#logeo  div{
-    width: 300px;
-    height: 600px;
-    position: relative;    
-    left: 10px;
-    bottom: 640px;
-    
-}*/
-
-
-
-/*.containercol-md-7 div h1{
-    position: relative;
-    left: 1200px;
-    bottom: 1200px;
-    width: 100px;
-}*/
-
-/*.containercol-md-7 {
-    position: relative;
-    left: 400px;
-    bottom: 400px;
-    width: 100px;
-}*/
-
-h1 {
-    color: rgb(172, 11, 59);
-    font-size: 2cm;
-    padding-top: 290px;
-    
-}
-
 .Presentacion {
     background-image: url("perfilact.jpg");
     background-repeat: no-repeat;
