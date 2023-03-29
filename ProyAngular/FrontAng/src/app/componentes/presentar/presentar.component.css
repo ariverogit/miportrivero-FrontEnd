@@ -1,0 +1,26 @@
+.Presentacion {
+    height: 0px;
+    width: 20px;
+    /*background-color: #a4a9ad;*/
+}
+
+#nombre {
+    color: rgb(46, 11, 172);
+    margin-left: 115px;
+    margin-top: 0px;
+    /*background-color: #a4a9ad;*/
+}
+
+
+#acercade{
+    margin-left: 110px;
+    margin-top: 0px;
+    font-style: italic;
+    font-size: 20px;
+    /*background-color: #a4a9ad;*/
+}
+
+#foto{
+    border-radius: 100%;
+}
+    

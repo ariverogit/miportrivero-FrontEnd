@@ -1,49 +1,5 @@
 
-.formlog{
-    position: relative;
-    left: -500px;
-    bottom: 1px;
-
-}
-.Presentacion {
-    background-image: url("perfilact.jpg");
-    background-repeat: no-repeat;
-    height: 150px;
-    width: 1400px;
-    
-}
-
-h2 {
-    color: rgb(46, 11, 172);
-    margin-left: 100px;
-}
-
-p{
-    margin-left: 110px;
-    font-style: italic;
-    font-size: 20px;
-    
-}
-
-h3{
-    margin-top: 0px
-
-}
-
-.Cvitae p{
-    
-        margin-left: 10px;
-        font-style: italic;
-        font-size: 15px;
-
-}
-
-.Cvitae h3{margin-left: 10px;
-    font-style: italic;
-    font-size:40px;
-}
-
-.graf1-2 div{
+/*.graf1-2 div{
     
     padding: 10px;
     background-image: url(Automat.jpg), url(Program.jpg);
@@ -53,31 +9,31 @@ h3{
    
 }
 
-.graf3-4  div{ 
+/*.graf3-4  div{ 
     padding: 10px;
     background-image: url(Software.jpg),url(ingles.jpg);
     background-position: bottom left ,bottom right;
     background-repeat: no-repeat,no-repeat;
-}
+}*/
 
-.Habil h4{margin-left: 10px;
+/*.Habil h4{margin-left: 10px;
     font-style: italic;
     font-size:40px;
-}
+}*/
 
-.Proy h2{
+/*.Proy h2{
     margin-left: 10px;
         font-style: italic;
         font-size: 25px;    
 
-}
+}*/
 
-.Proy h4{margin-left: 10px;
+/*.Proy h4{margin-left: 10px;
         font-style: italic;
         font-size:40px;
-}
+}*/
 
-.btn {
+/*.btn {
     display:inline-block;
     background-color: white;
     color: black;
@@ -90,4 +46,4 @@ h3{
     font-size: 15px;font-family: inherit;
 
 }
-
+*/

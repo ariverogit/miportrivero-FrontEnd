@@ -3,9 +3,11 @@ import { CommonModule } from '@angular/common';
 import { RouterModule,Routes } from '@angular/router';
 //componentes
 import { LoginComponent } from '../componentes/login/login.component';
+import { HomeComponent } from '../componentes/home/home.component';
 
 //definimos rutas
 const routes: Routes = [
+  {path: '', component: HomeComponent},
   {path: 'login', component: LoginComponent}
 ];
 

@@ -16,6 +16,10 @@ import { Routes } from '@angular/router';
 import { LogoAPComponent } from './componentes/logo-ap/logo-ap.component';
 import { RedsocComponent } from './componentes/redsoc/redsoc.component';
 import { BannerComponent } from './componentes/banner/banner.component';
+import { EducacionComponent } from './componentes/educacion/educacion.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { FooterComponent } from './componentes/footer/footer.component';
+import { HomeComponent } from './componentes/home/home.component';
 
 const appRoutes:Routes = [
   {path:'login',component:LoginComponent}
@@ -35,12 +39,16 @@ const appRoutes:Routes = [
     LogoAPComponent,
     RedsocComponent,
     BannerComponent,
+    EducacionComponent,
+    FooterComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
