@@ -1,0 +1,37 @@
+/*#redes{
+    position: relative;
+    left: 1244px;
+    bottom: 346px;
+}*/
+
+#red1 {
+    height:"31px";
+    width:"31px";
+}
+
+#red2 {
+    height:"41px";
+    width:"62px";
+}
+
+#red3 {
+    height:"32px";
+    width:"32px";
+}
+
+#red4 { 
+    height:"32px";
+    width:"32px";
+}
+
+#red5 {
+    height:"10px";
+    width:"10px";
+}
+
+#logeo {
+    float: right;
+    margin-right: 0px;
+    height:"32px";
+    width:"32px";
+}

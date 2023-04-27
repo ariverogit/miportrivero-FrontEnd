@@ -1,0 +1,54 @@
+<div class="Cvitae" id="cvtae">
+    <h3>Experiencia Laboral </h3>
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-dark" routerLink="/nuevaexp" *ngIf="isLogged">
+            Nueva trayectoria
+        </button>
+    </div>
+    <!-- inicio datos del json del angular viejo-->
+    <ol>
+        <li *ngFor="let itemtray of trayectList"> 
+                <p> {{itemtray.fechae}}</p>
+                <p>{{itemtray.puesto}}</p>
+                <ul >
+                    <li *ngFor="let itemtarea of itemtray.produccion">
+                        <p id="dtarea" >{{itemtarea.tarea}}</p>
+                    </li>
+                    </ul>
+        </li>
+    </ol>
+    <!-- fin datos del json del angular viejo-->
+    <!--img src="editar.jpg" alt="" height="16" inputmode=""-->
+    <!--img src="Eliminar.png" alt="" height="16" -->
+    <div class="col lg 1"></div>
+    <div class = "col-lg-11">
+        <table  class="table">
+            <tbody>
+                <tr *ngFor="let Experiencia of expe">
+                    <!--fecha y empresa-->
+                    <td><h2>{{Experiencia.nombreE}}</h2></td> 
+                    <!--puesto-->
+                    <td>{{Experiencia.descripcionE}}</td>
+                    <!--tarea-->
+                    <!--<td>{{Experiencia.tarea}}</td>-->
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-light" routerLink="/update/{{Experiencia.id}}">
+                        <i class="bi bi-pencil"></i>EDITAR
+                    </button>
+                    </td>
+                        
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-danger" (click)="delete(Experiencia.id)">
+                            <i class="bi bi-trash3"></i>BORRAR
+                        </button>
+                    </td>
+                    
+                </tr>
+            </tbody>
+           
+        </table>
+
+    </div>
+    
+
+  </div>

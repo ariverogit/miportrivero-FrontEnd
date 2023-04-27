@@ -1,0 +1,21 @@
+<!--inicio de presentacion original-->
+<div class="Presentacion" id="present">
+    <img src="../../../assets/imagenes/perfilact.jpg" id="foto">
+</div>
+<h2 id="nombre">{{miPresent.nombre}}</h2>
+<!--<h2 id="nombre">{{persona.nombre}} {{persona.apellido}}</h2>-->
+<p id="acercade">{{miPresent.acerca}}</p>
+<!--fin de presentacion original-->
+
+<!--inicio de presentacion con backend-->
+
+    <button type="button" class="btn btn-dark" routerLink="/editpres/1" *ngIf="isLogged">
+        Editar Persona
+    </button>
+
+<div class="Presentacion" id="present">
+    <img src={{persona.img}} id="foto">
+</div>
+<h2 id="nombre">{{persona.nombre}} {{persona.apellido}}</h2>
+<p id="acercade">{{persona.descripcion}}</p>
+<!--fin de presentacion con backend-->

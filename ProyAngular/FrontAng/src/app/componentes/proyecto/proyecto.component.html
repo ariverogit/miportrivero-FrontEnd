@@ -1,0 +1,11 @@
+<div class="Proy" id="proy">
+    <h4>Proyectos</h4>
+    <img src="editar.jpg" alt="" height="16" inputmode="">
+    <img src="Eliminar.png" alt="" height="16" >
+    <ul>
+        <li *ngFor="let temproy of miProylist">
+            <h2><a href={{temproy.linkproy}} >{{temproy.titproy}}</a></h2>
+            <p>{{temproy.descproy}}</p>
+        </li>
+    </ul>
+</div>

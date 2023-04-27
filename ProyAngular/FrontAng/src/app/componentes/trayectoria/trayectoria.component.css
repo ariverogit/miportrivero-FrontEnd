@@ -1,0 +1,25 @@
+h3{
+    margin-top: 0px;
+    color :rgb(4, 104, 95);
+}
+
+.Cvitae p{
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+.Cvitae h3{margin-left: 10px;
+    font-style: italic;
+    font-size:40px;
+}
+
+.Cvitae{
+    background-color: rgb(198, 245, 198);
+    
+}
+
+#dtarea{
+    margin-right: 480px;
+}

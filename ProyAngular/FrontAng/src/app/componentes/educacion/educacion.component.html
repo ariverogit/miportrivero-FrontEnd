@@ -1,0 +1,61 @@
+<div>
+    <h1 id="educ">Educacion</h1>
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-dark" routerLink="/nuevaedu" *ngIf="isLogged">
+            Agregar Educacion
+        </button>
+    </div>
+    <!-- inicio datos del json del angular viejo-->
+    <ul>
+        <li>
+            <h2 id="educ1">Universidad Nacional de Mar del Plata</h2>
+            <h3 id="tit1">Ingeniero Electronico</h3>
+        </li>
+        <li>
+            <h2 id="educ2">Escuela de Educacion Tecnica y Media Nro 3</h2>
+            <h3 id="tit2">Tecnico Electromecanico</h3>
+        </li>
+        <li>
+            <h2 id="educ3">Universidad Tecnologica Nacional </h2>
+            <h3 id="tit3">Profesor en Disciplinas Industriales</h3>
+        </li>npm
+        <li>
+            <h2 id="educ4">Escuela Jose Manuel Estrada</h2>
+            <h3 id="tit3">Educacion Primaria Completa</h3>
+        </li>
+        <li>
+            <h2 id="educ5">Laboratorio de Idiomas de la UNMdP</h2>
+            <h3 id="tit3">3er Nivel de Ingles</h3>
+        </li>
+    </ul>
+    <!-- fin datos del json del angular viejo-->
+    <div class="col lg 1"></div>
+    <div class = "col-lg-11">
+        <table  class="table">
+            <tbody>
+                <tr *ngFor="let Educacion of educacion">
+                    <!--fecha y empresa-->
+                    <td><h2>{{Educacion.nombreE}}</h2></td> 
+                    <!--puesto-->
+                    <td>{{Educacion.descripcionE}}</td>
+                    <!--tarea-->
+                    <!--<td>{{Experiencia.tarea}}</td>-->
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-light" routerLink="/editedu/{{Educacion.id}}">
+                        <i class="bi bi-pencil"></i>EDITAR
+                    </button>
+                    </td>
+                        
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-danger" (click)="delete(Educacion.id)">
+                            <i class="bi bi-trash3"></i>BORRAR
+                        </button>
+                    </td>
+                    
+                </tr>
+            </tbody>
+           
+        </table>
+
+    </div>
+</div>
