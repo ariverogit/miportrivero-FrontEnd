@@ -20,6 +20,15 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HomeComponent } from './componentes/home/home.component';
+import { interceptorProvider } from './Servicios/interceptor-service';
+import { NewtrayectoriaComponent } from './componentes/trayectoria/newtrayectoria.component';
+import { EditTrayectoriaComponent } from './componentes/trayectoria/edit-trayectoria.component';
+import { NeweducacionComponent } from './componentes/educacion/neweducacion/neweducacion.component';
+import { EditeducacionComponent } from './componentes/educacion/editeducacion.component';
+import { HysComponent } from './componentes/hys/hys.component';
+import { EditSkillComponent } from './componentes/hys/edit-skill.component';
+import { NewSkillComponent } from './componentes/hys/new-skill.component';
+import { EditPresComponent } from './componentes/presentar/edit-pres.component';
 
 const appRoutes:Routes = [
   {path:'login',component:LoginComponent}
@@ -42,6 +51,14 @@ const appRoutes:Routes = [
     EducacionComponent,
     FooterComponent,
     HomeComponent,
+    NewtrayectoriaComponent,
+    EditTrayectoriaComponent,
+    NeweducacionComponent,
+    EditeducacionComponent,
+    HysComponent,
+    EditSkillComponent,
+    NewSkillComponent,
+    EditPresComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +67,9 @@ const appRoutes:Routes = [
     AppRoutingModule,
     NgCircleProgressModule.forRoot({})
   ],
-  providers: [],
+  providers: [
+    interceptorProvider
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

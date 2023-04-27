@@ -8,7 +8,8 @@ import { User } from 'src/app/user';
   providedIn: 'root'
 })
 export class LoginuserService {
-  private baseUrl="http://localhost:8000/user/login";
+  //private baseUrl="http://localhost:8000/user/login";   //local
+  private baseUrl="https://backaar-1.herokuapp.com/user/login"; //remoto
   constructor(private HttpClient:HttpClient) { }
 
   loginUser(user: User):Observable<object>{

@@ -1,5 +1,11 @@
 <div>
     <h1 id="educ">Educacion</h1>
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-dark" routerLink="/nuevaedu" *ngIf="isLogged">
+            Agregar Educacion
+        </button>
+    </div>
+    <!-- inicio datos del json del angular viejo-->
     <ul>
         <li>
             <h2 id="educ1">Universidad Nacional de Mar del Plata</h2>
@@ -22,4 +28,34 @@
             <h3 id="tit3">3er Nivel de Ingles</h3>
         </li>
     </ul>
+    <!-- fin datos del json del angular viejo-->
+    <div class="col lg 1"></div>
+    <div class = "col-lg-11">
+        <table  class="table">
+            <tbody>
+                <tr *ngFor="let Educacion of educacion">
+                    <!--fecha y empresa-->
+                    <td><h2>{{Educacion.nombreE}}</h2></td> 
+                    <!--puesto-->
+                    <td>{{Educacion.descripcionE}}</td>
+                    <!--tarea-->
+                    <!--<td>{{Experiencia.tarea}}</td>-->
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-light" routerLink="/editedu/{{Educacion.id}}">
+                        <i class="bi bi-pencil"></i>EDITAR
+                    </button>
+                    </td>
+                        
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-danger" (click)="delete(Educacion.id)">
+                            <i class="bi bi-trash3"></i>BORRAR
+                        </button>
+                    </td>
+                    
+                </tr>
+            </tbody>
+           
+        </table>
+
+    </div>
 </div>
